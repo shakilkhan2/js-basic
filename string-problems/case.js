@@ -1,7 +1,7 @@
 let input = 'oFfice';
-let saved = 'office';
+let saved = 'offiCe';
 
-if(input === saved){
+if(input.toLowerCase() === saved.toLowerCase()){
     console.log('Welcome');
 }else{
     console.log("Try Again");
